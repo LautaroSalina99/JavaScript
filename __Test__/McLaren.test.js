@@ -1,4 +1,4 @@
-const McLaren = require('./src/McLaren');
+const McLaren = require("../src/McLaren");
 
 test('Encender McLaren', () => {
     const miMcLaren = new McLaren("720S", "Rojo", "V8 Twin-Turbo", "Automática de 7 velocidades", "Monocasco de fibra de carbono");

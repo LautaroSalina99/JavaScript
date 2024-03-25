@@ -32,4 +32,4 @@ class McLaren {
     }
 }
 
-module.exports = McLaren;
+module.exports = McLaren

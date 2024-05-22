@@ -4,5 +4,15 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2"
+  },
+  "name": "javascript",
+  "description": "![CI](https://github.com/cocuxd23/JavaScript/workflows/CI/badge.svg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lauataro",
+  "license": "ISC"
 }

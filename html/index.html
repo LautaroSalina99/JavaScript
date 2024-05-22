@@ -35,10 +35,10 @@
       event.preventDefault();
       var input1 = document.getElementById('input1').value;
       var input2 = document.getElementById('input2').value;
-      
+
       var queryString = '?input1=' + encodeURIComponent(input1) + '&input2=' + encodeURIComponent(input2);
       var url = window.location.pathname + queryString;
-      
+
       window.location.href = url;
     });
 
@@ -48,7 +48,7 @@
       var input2 = params.get('input2');
 
       if (input1 || input2) {
-        document.getElementById('resultado').innerHTML = '<strong>Input 1:</strong> ' + input1 + ' <strong>Input 2:</strong> ' + input2;
+        document.getElementById('resultado').innerHTML = '<strong>Input 1:</strong> <strong>' + input1 + '</strong> <strong>Input 2:</strong> <strong>' + input2 + '</strong>';
       }
     });
   </script>

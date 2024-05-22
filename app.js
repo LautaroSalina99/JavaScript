@@ -53,7 +53,7 @@ app.get('/formulario', (req, res) => {
     res.send(responseHtml);
 });
 
-const port = 3001; // Cambia el puerto a 3001
+const port = 3000; // Cambia el puerto a 3000
 app.listen(port, () => {
     console.log(`Servidor escuchando en http://localhost:${port}`);
 });
